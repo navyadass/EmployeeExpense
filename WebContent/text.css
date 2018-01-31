@@ -1,0 +1,290 @@
+body
+{	
+	    background-image:url(img/heera111.png);
+		background-repeat:repeat-x;
+		font-family:Arial, Helvetica, sans-serif;
+		background-color:#CCFFFF;
+		
+	}
+    .greytop1{
+	background-image:url(img/04.png);
+	background-repeat:repeat-x;
+
+	height:8px;}
+.center
+{
+    width:950px;
+    background-color:#CCFFFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+.smallgap
+{
+	width:100%;
+	height:20px;
+}
+.lets1
+{
+	background-color:#CCFFFF;
+	position:relative;
+	float:left;
+	width:950px;
+}
+.lets1-in
+{
+		background-color:#FFF;
+		height:auto;
+		padding-left:10px;
+		padding-right:10px;
+	    width:100%
+}
+.letsfull
+{
+		position:relative;
+		float:left;
+		width:100%
+}
+.letsimg
+{
+		position:relative;
+		float:left;
+		padding-left:10px;
+		width:280px
+}
+.letsimg-n
+{
+		position:relative;
+		float:right;
+		margin-left:8px;		
+		width:285px
+}
+.letstext1
+{
+		padding-left:10px;
+		padding-right:10px;
+		position:relative;
+		float:left;
+		width:620px
+}
+.text
+{
+	font-size:45px;
+	color:#5a5a5a;
+}
+.text1
+{
+	font-family:"Times New Roman", Times, serif;
+	font-size:24px;
+	color:#115caf;
+	padding-left:10px;
+	text-transform: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #333;
+	margin-bottom:10px;
+}
+.text2
+{	
+	font-size:12px;
+	color:#666;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+.text10-new
+{
+	padding-left:10px;
+	font-size:18px;
+	color:#666;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+.blue-div
+{
+			width:1px;
+			height:auto;
+			float:left;
+			margin-left:10px;
+}
+.otherlink
+{
+		padding-bottom:10px;
+		padding-left:10px;
+		color:#115caf;
+		font-size:12px;
+		font-family:Arial, Helvetica, sans-serif;
+		height:20px;
+}
+.otherlink a
+{
+		color:#115caf;
+		text-decoration:none;
+}
+.otherlink a:hover
+{
+		color:#000;
+		text-decoration:underline;
+}
+.quicktxt
+{
+		font-family:Arial, Helvetica, sans-serif;
+		color:#000;
+		font-size:16px;
+		background-image:url(img/quick.jpg);
+		background-repeat:no-repeat;
+		width:262px;
+		height:38px;
+		text-align:center;
+		line-height:38px;
+		
+}
+.qui-t
+{
+		width:262px;
+		margin-top:-13px;
+		list-style:none;
+		color:#0485d1;
+	    font-size:14px;
+	    font-family:Arial, Helvetica, sans-serif;
+	    padding-bottom:20px;	
+	    line-height:36px;
+}
+.qui-t
+{
+		width:262px;
+		margin-top:-13px;
+		list-style:none;
+		color:#0485d1;
+	    font-size:14px;
+	    font-family:Arial, Helvetica, sans-serif;
+	    padding-bottom:20px;
+	    line-height:36px;
+}
+.qui-t li
+{
+		margin-left:-25px;
+		list-style:none;
+		padding-bottom:10px;
+		width:100%;
+		height:auto;
+	    border-bottom-width: thin;
+	    border-bottom-style: dashed;
+	    border-bottom-color: #FFF;
+	    width:258px;
+	    height:43px;
+}
+.qui-t a
+{
+	color:#000;
+	text-decoration:none;
+	width:258px;
+	height:45px;
+	display:block;
+}
+.qui-t a:hover
+{
+	color:#000;
+	background-image:url(img/bb.jpg);
+	background-repeat:no-repeat;
+	display:block;
+	margin-left:26px;
+}
+.current
+{
+	background:#808080;
+	background-repeat:no-repeat;
+	width:260px;
+	height:45px;
+	color:#000;
+	margin-left:-40px;
+}
+.recent
+{
+	background:#008080;
+	background-repeat:no-repeat;
+	width:260px;
+	height:45px;
+	color:#000;
+	margin-left:-40px;
+}
+.letstext1
+{
+		padding-left:10px;
+		padding-right:10px;
+		position:relative;
+		float:left;
+		width:620px
+}
+.ff
+{
+	background-color:#0388d3;
+	color:#000;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	text-align:center;
+}
+.txtbox
+{
+		width:250px;
+}
+.login
+{
+	width:80%;
+	margin:0px auto;
+	border: 1px solid #CCC;
+	margin-top:10px;
+	margin-bottom:20px;
+	padding:10px;		
+}
+.lgtxt
+{
+		font-size:14px;
+		color:#666;
+		padding-bottom:10px;
+		padding-top:10px;
+}
+.box
+{
+		width:200px;
+
+}
+.sub
+{
+		margin-top:10px;
+		margin-bottom:10px;
+}   
+.new-b{
+		color:#333;
+		font-size:14px;
+		font-weight:bold;
+		
+	}
+.call-new1{
+			font-size:14px;
+			color:#0388d3;
+			
+			line-height:24px;
+		}
+	.site1{
+		font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+	color:#115caf;
+	text-transform: uppercase;
+	line-height:36px;
+	
+	
+	}
+	.site1 a{
+		
+	color:#333;
+	text-decoration:none;
+	
+	
+	}
+	.site1 a:hover{
+		
+	color:#000;
+	text-decoration:underline;
+	
+	
+	}	

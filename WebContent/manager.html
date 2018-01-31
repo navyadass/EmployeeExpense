@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link href="menu.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="text.css" />
+    <title>EEMS</title>
+    
+     <script type="text/javascript">
+    function chkuname()
+    {
+    	var reg=new RegExp(/^[0-9]{1,15}$/);
+    	var uname=document.getElementById("uname");
+    	var u=document.getElementById("u");
+    	if(uname==null)
+    		{
+    		document.getElementById("u").innerHTML="Invalid Username. Please Re-enter tha correct Username.";
+    		return false;
+    		}
+    	return true;
+    }
+    function chkpass()
+    {
+    	var reg1=new RegExp(/^[a-zA-Z0-9]{4,20}$/);
+    	var pass=document.getElementById("pass");
+    	if(!reg1.test(pass.value))
+    		{
+    		document.getElementById("p").innerHTML="Invalid Password. Please Re-enter the correct Password.";
+    		return false;
+    		}
+    	return true;
+    }
+   
+    </script>
+  </head>
+  <body>
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+   <tr>
+       <td>
+	        <div class="text">Employee Expense Management System</div>
+		</td>
+        <td align="right">
+		     <table width="80%" border="0" cellspacing="0" cellpadding="0">
+  			     <tr>
+    		          <td><a href="help-desk.html"><img src="img/icon2.png" border="0" width="85" height="38" /></a></td>
+  			      </tr>
+			 </table>
+	     </td>
+   </tr>
+  </table>
+  <div>
+        <ul id="menu">
+          <li><a href="home.html" >Home</a></li>
+          <li> <a href="overview.html">Company Profile</a>
+            <ul>
+              <li> <a href="overview.html">Overview</a> </li>
+              <li> <a href="vision-mission.html">Vision & Missions</a> </li>
+              <li> <a href="methodology.html">Methodology</a> </li>
+              <li> <a href="clients.html">Clients</a> </li>
+              <li> <a href="people.html">People</a> </li>
+               <li> <a href="quality.html">Quality</a> </li>             
+            </ul>
+          </li>
+          <li> <a href="employee.html">Login</a>
+            <ul>
+              <li> <a href="employee.html">Employee</a> </li>
+              <li> <a href="manager.html">Manager</a> </li>
+              <li> <a href="accountant.html">Accountant</a> </li>
+            </ul>
+          </li>
+          <li> <a href="contact-us-general.html">Contact Us</a>
+            <ul>
+              <li> <a href="contact-us-general.html">General Contact </a> </li>
+              <li> <a href="enquiry-form.html">Equiry Form</a> </li>
+              <li> <a href="request-callback.html">Request a Callback </a> </li>         
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+
+      <div class="smallgap">&nbsp;</div>
+	  <div class="otherlink"><a href="index.html">Home</a> &nbsp;&nbsp;<img src="img/arrow2.png" width="9" height="10" /> &nbsp;&nbsp;<a href="login.html">Login</a></div>
+        <div class="lets1">
+     
+          <div class="letsfull">
+          <div class="login">
+  <span class="text1"> Welcome to Manager Login:</span>
+  <form action="ma" method="get">
+  <div class="lgtxt">Enter ID :</div>
+  <input type="text"  id="uname" name="uname" class="box" onBlur="chkuname();"/>
+   <label id="u" style="color:#DF0101; font-size:10pt"></label><br>
+  <div class="lgtxt">Enter Password :</div>
+  <input id="pass" name="pass" type="password" class="box" onBlur="chkpass();"/>
+  <label id="p" style="color:#DF0101; font-size:10pt"></label><br><br>
+  <input type="submit" value="Login" />
+</form>
+</div>            
+          
+          </div>
+        </div>
+  </body>
+</html>
